@@ -1,6 +1,6 @@
 {
   "name": "physijs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Physics plugin for Three.js",
   "main": "index.js",
   "dependencies": {
@@ -15,8 +15,10 @@
     "physijs",
     "threejs"
   ],
+  "types": "index",
   "devDependencies": {
-    "worker-loader": "^2.0.0"
+    "worker-loader": "^2.0.0",
+    "@types/three": "^0.93.31"
   },
   "license": "MIT",
   "bugs": {
