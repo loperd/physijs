@@ -1,5 +1,7 @@
-window.Physijs = (function() {
+module.exports = function Physijs(Worker, THREE) {
 	'use strict';
+
+	console.log(arguments)
 
 	var SUPPORT_TRANSFERABLE,
 		_is_simulating = false,
@@ -390,7 +392,7 @@ window.Physijs = (function() {
 		Eventable.call( this );
 		THREE.Scene.call( this );
 
-		this._worker = new Worker( Physijs.scripts.worker || 'physijs_worker.js' );
+		this._worker = new Worker();
 		this._worker.transferableMessage = this._worker.webkitPostMessage || this._worker.postMessage;
 		this._materials_ref_counts = {};
 		this._objects = {};
@@ -1400,4 +1402,4 @@ window.Physijs = (function() {
 	};
 
 	return Physijs;
-})();
+};

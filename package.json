@@ -1,0 +1,10 @@
+{
+  "name": "physijs",
+  "version": "1.0.0",
+  "dependencies": {
+    "three": "^0.115.0"
+  },
+  "devDependencies": {
+    "worker-loader": "^2.0.0"
+  }
+}
