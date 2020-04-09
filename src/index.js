@@ -1,6 +1,7 @@
 var
     worker = require("worker-loader!./worker"),
-    three = require("three")
-;
+    three  = require("three")
 
-module.exports = require("./physi")(worker, three)
+var Physijs = require("./physi")(worker, three)
+
+module.exports = Physijs

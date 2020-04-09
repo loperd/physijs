@@ -1,8 +1,6 @@
 module.exports = function Physijs(Worker, THREE) {
 	'use strict';
 
-	console.log(arguments)
-
 	var SUPPORT_TRANSFERABLE,
 		_is_simulating = false,
 		_Physijs = Physijs, // used for noConflict method
