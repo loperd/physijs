@@ -4,7 +4,7 @@
   "description": "Physics plugin for Three.js",
   "main": "src/index.js",
   "dependencies": {
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   },
   "author": "Chandler Prall <chandler.prall@gmail.com>",
   "repository": {
