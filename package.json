@@ -17,7 +17,7 @@
   ],
   "types": "index",
   "devDependencies": {
-    "worker-loader": "^2.0.0",
+    "worker-loader": "^3.0.8",
     "@types/three": "^0.93.31"
   },
   "license": "MIT",
